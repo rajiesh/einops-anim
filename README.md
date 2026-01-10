@@ -108,29 +108,6 @@ RNG_SEED = 42  # Random seed for reproducible tensors
 AXIS_SIZE_CHOICES = (2, 3)  # Possible sizes for auto-assigned axes
 ```
 
-## Output Formats
-
-Manim supports various quality settings:
-
-- `-ql` - Low quality (480p) - fast rendering
-- `-qm` - Medium quality (720p)
-- `-qh` - High quality (1080p)
-- `-qk` - 4K quality (2160p)
-
-Add `-p` flag to preview after rendering.
-
-Example for high quality:
-```bash
-manim -pqh einsum_generalised.py EinsumBudgeted
-```
-
-## Docker Usage
-
-You can also run the animations using Docker:
-
-```bash
-docker run --rm -it -v "/Users/rajieshnarayanan/workspace/einops-animation:/manim" manimcommunity/manim manim -qm einsum_generalised.py EinsumBudgeted
-```
 
 ## Library Functions
 
