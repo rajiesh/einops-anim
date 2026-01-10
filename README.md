@@ -12,7 +12,9 @@ A collection of Manim Community Edition animations for visualizing einops operat
 ## Installation
 
 ```bash
-pip install manim numpy einops
+python3 -m venv .venv
+source .venv/bin/activate
+uv sync
 ```
 
 ## Usage
