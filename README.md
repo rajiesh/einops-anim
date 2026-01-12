@@ -2,6 +2,10 @@
 
 A collection of Manim Community Edition animations for visualizing einops operations.
 
+
+https://github.com/user-attachments/assets/3834c484-95fa-458e-b241-f1c4da5333ff
+
+
 ## Files
 
 - **`einops_manim_lib.py`** - Common library with shared visualization functions
